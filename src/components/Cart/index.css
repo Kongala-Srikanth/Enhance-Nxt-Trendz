@@ -1,0 +1,162 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+
+.hide-btn {
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  font-weight: 600;
+  color: blue;
+  text-align: right;
+  margin-right: 6px;
+}
+
+.check-out-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #616e7c;
+}
+.total-price {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #171f46;
+}
+
+.check-out {
+  background-color: #0b69ff;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+.total-items {
+  font-size: 17px;
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+
+.payment-container {
+  padding: 30px;
+}
+
+.payment-method-sub-container {
+  display: flex;
+  align-items: center;
+}
+
+.payment-method-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.order-details-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #3e4c59;
+}
+
+.span-bold {
+  font-weight: 500;
+}
+
+.details-text {
+  font-size: 18px;
+}
+
+.confirm-btn-container {
+  text-align: center;
+}
+
+.confirm-btn {
+  background-color: #0bbaff;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+.popup-content {
+  width: 75%;
+  border-radius: 10px;
+}
+
+.success-order {
+  color: green;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.payment-heading {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.payment-method {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.disabled-btn {
+  background-color: #0bbaff86;
+}
